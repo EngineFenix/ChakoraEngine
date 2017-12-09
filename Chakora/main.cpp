@@ -2,17 +2,16 @@
 #include <stdlib.h>
 #include <GL\freeglut.h>
 #include <GL\glut.h>
-
 #include <windows.h>
-// K¹t obserwacji i animacji:
+
 GLfloat lookA = 30;
 GLfloat angle;
-// Parametry oœwietlenia:
+
 GLfloat lightAmb[] = { 0.1, 0.1, 0.1, 1.0 };
 GLfloat lightDif[] = { 0.7, 0.7, 0.7, 1.0 };
 GLfloat lightPos[] = { 0, 0, 800, 1.0 };
 GLfloat lightSpec[] = { 1, 1, 1, 1 };
-// Listy wyœwietlania:
+
 GLuint obiekt1;
 
 void inicjalizacja() {
@@ -31,7 +30,7 @@ void inicjalizacja() {
 	glEnable(GL_COLOR_MATERIAL);
 	glColorMaterial(GL_FRONT, GL_AMBIENT_AND_DIFFUSE);
 
-	// Przygotowanie listy wyœwietlania z szeœcianami:
+
 	obiekt1 = glGenLists(1);
 	glNewList(obiekt1, GL_COMPILE);
 	for (int i = 0; i < 10; i++) {
@@ -69,7 +68,7 @@ void rysowanie() {
 	glRotatef(lookA, 1, 0, 0);
 	glRotatef(angle, 0, 1, 0);
 
-	// Narysowanie 10 szeœcianów:
+
 	glCallList(obiekt1);
 
 	glutSwapBuffers();
