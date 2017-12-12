@@ -23,6 +23,7 @@
     <ProjectGuid>{8C8B62F7-AC54-429F-8CBB-FEA3C388FBE3}</ProjectGuid>
     <RootNamespace>Chakora</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <ProjectName>CoreEngine</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -123,16 +124,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="EngineSource\Scene\GameMode.cpp" />
-    <ClCompile Include="EngineSource\Scene\Map.cpp" />
+    <ClCompile Include="CoreEngine\CoreGameplay\GameMode.cpp" />
+    <ClCompile Include="CoreEngine\CoreGameplay\Scene.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="EngineSource\Scene\GameMode.h" />
-    <ClInclude Include="EngineSource\Scene\Map.h" />
+    <ClInclude Include="CoreEngine\CoreGameplay\GameMode.h" />
+    <ClInclude Include="CoreEngine\CoreGameplay\Scene.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

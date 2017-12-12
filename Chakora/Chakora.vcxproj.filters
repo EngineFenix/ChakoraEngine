@@ -18,10 +18,10 @@
     <ClCompile Include="main.cpp">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
-    <ClCompile Include="EngineSource\Scene\GameMode.cpp">
+    <ClCompile Include="CoreEngine\CoreGameplay\GameMode.cpp">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
-    <ClCompile Include="EngineSource\Scene\Map.cpp">
+    <ClCompile Include="CoreEngine\CoreGameplay\Scene.cpp">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
   </ItemGroup>
@@ -29,10 +29,10 @@
     <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="EngineSource\Scene\GameMode.h">
+    <ClInclude Include="CoreEngine\CoreGameplay\GameMode.h">
       <Filter>Pliki nagłówkowe</Filter>
     </ClInclude>
-    <ClInclude Include="EngineSource\Scene\Map.h">
+    <ClInclude Include="CoreEngine\CoreGameplay\Scene.h">
       <Filter>Pliki nagłówkowe</Filter>
     </ClInclude>
   </ItemGroup>

@@ -1,0 +1,10 @@
+#ifndef ENGINESTRUCTURES_H_INCLUDED
+#define ENGINESTRUCTURES_H_INCLUDED
+
+struct DVector
+{
+    int X;
+    int Y;
+};
+
+#endif // ENGINESTRUCTURES_H_INCLUDED
