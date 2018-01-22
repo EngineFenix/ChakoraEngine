@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="logo.svg"
+   inkscape:version="0.92.0 r15299">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="-135.66051"
+     inkscape:cy="651.25769"
+     inkscape:document-units="mm"
+     inkscape:current-layer="g4559"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g4559"
+       inkscape:export-xdpi="49.569702"
+       inkscape:export-ydpi="49.569702"
+       transform="translate(9.2268547,7.4386597e-6)">
+      <text
+         id="text4487"
+         y="160.84721"
+         x="25.892023"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35.27777481px;line-height:6.61458254px;font-family:FontAwesome;-inkscape-font-specification:FontAwesome;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"
+         inkscape:export-filename="C:\Users\Yelonek\Desktop\path4505.png"
+         inkscape:export-xdpi="49.569729"
+         inkscape:export-ydpi="49.569729"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Akrobat;-inkscape-font-specification:Akrobat;letter-spacing:-0.02910417px;word-spacing:-0.00264583px;fill:#000000;fill-opacity:1;stroke-width:0.26458332"
+           y="160.84721"
+           x="25.892023"
+           id="tspan4485"
+           sodipodi:role="line"><tspan
+             id="tspan4489"
+             style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:Akrobat;-inkscape-font-specification:'Akrobat Semi-Bold';letter-spacing:-0.02910417px;word-spacing:-0.00264583px;fill:#000000;fill-opacity:1">CORE</tspan><tspan
+             id="tspan4501"
+             style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-family:Akrobat;-inkscape-font-specification:'Akrobat Heavy';letter-spacing:-0.02910417px;word-spacing:-0.00264583px;fill:#000000;fill-opacity:1">ENGINE</tspan></tspan></text>
+      <g
+         transform="matrix(1.652439,0,0,1.652439,-169.12701,-28.421578)"
+         id="g4534">
+        <path
+           style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.6159091;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:2.4636366, 0.61590912;stroke-dashoffset:0;stroke-opacity:1"
+           d="m 38.056641,502.50977 a 48.392856,48.392856 0 0 0 -48.392579,48.39257 48.392856,48.392856 0 0 0 48.392579,48.39258 48.392856,48.392856 0 0 0 48.392578,-48.39258 48.392856,48.392856 0 0 0 -48.392578,-48.39257 z m 0,27.54101 a 20.850804,20.850804 0 0 1 20.851562,20.85156 20.850804,20.850804 0 0 1 -20.851562,20.85157 20.850804,20.850804 0 0 1 -20.851563,-20.85157 20.850804,20.850804 0 0 1 20.851563,-20.85156 z"
+           transform="matrix(0.16011685,0,0,0.16011685,98.906513,18.858182)"
+           id="path4505"
+           inkscape:connector-curvature="0"
+           inkscape:export-filename="C:\Users\Yelonek\Desktop\path4505.png"
+           inkscape:export-xdpi="49.569729"
+           inkscape:export-ydpi="49.569729" />
+      </g>
+    </g>
+  </g>
+</svg>

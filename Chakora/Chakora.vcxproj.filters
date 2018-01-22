@@ -13,9 +13,27 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Pliki nagłówkowe\CoreEngine">
+      <UniqueIdentifier>{ef687a7e-3bd6-483a-bdd8-7cfd62ea3445}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\CoreGameplay">
+      <UniqueIdentifier>{7d397ac5-a15a-4cec-9eb3-a9b7000e08b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\CoreObject">
+      <UniqueIdentifier>{d58859b6-1f28-4c04-8ceb-4c4caed9a768}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreEngine\CoreEngine\CoreApp.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreEngine\CoreGameplay\Camera.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreEngine\CoreInput\KeyboardInput.cpp">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
     <ClCompile Include="CoreEngine\CoreGameplay\GameMode.cpp">
@@ -24,15 +42,45 @@
     <ClCompile Include="CoreEngine\CoreGameplay\Scene.cpp">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
+    <ClCompile Include="CoreEngine\CoreGameplay\Actor.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreEngine\CoreTexture\TGA.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="ClassDiagram.cd" />
-  </ItemGroup>
-  <ItemGroup>
+    <ClInclude Include="CoreEngine\CoreEngine\BasicVariables.h">
+      <Filter>Pliki nagłówkowe\CoreEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreEngine\CoreEngine\CoreApp.h">
+      <Filter>Pliki nagłówkowe\CoreEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreEngine\CoreEngine\Structures.h">
+      <Filter>Pliki nagłówkowe\CoreEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreEngine\CoreGameplay\Actor.h">
+      <Filter>Pliki nagłówkowe\CoreGameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreEngine\CoreGameplay\Camera.h">
+      <Filter>Pliki nagłówkowe\CoreGameplay</Filter>
+    </ClInclude>
     <ClInclude Include="CoreEngine\CoreGameplay\GameMode.h">
-      <Filter>Pliki nagłówkowe</Filter>
+      <Filter>Pliki nagłówkowe\CoreGameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreEngine\CoreGameplay\PlayerStart.h">
+      <Filter>Pliki nagłówkowe\CoreGameplay</Filter>
     </ClInclude>
     <ClInclude Include="CoreEngine\CoreGameplay\Scene.h">
+      <Filter>Pliki nagłówkowe\CoreGameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreEngine\BasicHeaders.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreEngine\CoreObject\MeshArea.h">
+      <Filter>Pliki nagłówkowe\CoreObject</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreEngine\CoreTexture\TGA.h">
       <Filter>Pliki nagłówkowe</Filter>
     </ClInclude>
   </ItemGroup>

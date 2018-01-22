@@ -1,12 +1,19 @@
 #include "GameMode.h"
 
-GameMode::GameMode()
-{
+namespace CoreGameplay {
+	GameMode::GameMode()
+	{
+		PlayerController = new CoreInput::InputController();
+		PlayerActor = new CoreGameplay::Actor();
+	}
 
-}
+	GameMode::~GameMode()
+	{
+		delete PlayerController;
+		delete PlayerActor;
+	}
 
+	CoreInput::InputController * GameMode::GetController() { return PlayerController; }
 
-GameMode::~GameMode()
-{
-	
+	CoreGameplay::Actor * GameMode::GetActor() { return PlayerActor; }
 }

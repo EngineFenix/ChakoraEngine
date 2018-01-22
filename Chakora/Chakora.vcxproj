@@ -77,7 +77,8 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>library\glew-1.11.0\include;library\freeglut\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>library\glm;library\glew-1.11.0\include;library\freeglut\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <GenerateXMLDocumentationFiles>true</GenerateXMLDocumentationFiles>
     </ClCompile>
     <Link>
       <AdditionalLibraryDirectories>library\freeglut\lib;library\glew-1.11.0\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -100,7 +101,8 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>library\glew-1.11.0\include;library\freeglut\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>library\glm;library\glew-1.11.0\include;library\freeglut\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <GenerateXMLDocumentationFiles>true</GenerateXMLDocumentationFiles>
     </ClCompile>
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
@@ -124,16 +126,27 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CoreEngine\CoreEngine\CoreApp.cpp" />
+    <ClCompile Include="CoreEngine\CoreGameplay\Actor.cpp" />
+    <ClCompile Include="CoreEngine\CoreGameplay\Camera.cpp" />
     <ClCompile Include="CoreEngine\CoreGameplay\GameMode.cpp" />
     <ClCompile Include="CoreEngine\CoreGameplay\Scene.cpp" />
+    <ClCompile Include="CoreEngine\CoreInput\KeyboardInput.cpp" />
+    <ClCompile Include="CoreEngine\CoreTexture\TGA.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="ClassDiagram.cd" />
-  </ItemGroup>
-  <ItemGroup>
+    <ClInclude Include="CoreEngine\BasicHeaders.h" />
+    <ClInclude Include="CoreEngine\CoreEngine\BasicVariables.h" />
+    <ClInclude Include="CoreEngine\CoreEngine\CoreApp.h" />
+    <ClInclude Include="CoreEngine\CoreEngine\Structures.h" />
+    <ClInclude Include="CoreEngine\CoreGameplay\Actor.h" />
+    <ClInclude Include="CoreEngine\CoreGameplay\Camera.h" />
     <ClInclude Include="CoreEngine\CoreGameplay\GameMode.h" />
+    <ClInclude Include="CoreEngine\CoreGameplay\PlayerStart.h" />
     <ClInclude Include="CoreEngine\CoreGameplay\Scene.h" />
+    <ClInclude Include="CoreEngine\CoreObject\MeshArea.h" />
+    <ClInclude Include="CoreEngine\CoreTexture\TGA.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

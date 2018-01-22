@@ -1,9 +1,0 @@
-#ifndef ENGINEVARIABLES_H_INCLUDED
-#define ENGINEVARIABLES_H_INCLUDED
-
-#define AKEY_PRESSED     0
-#define AKEY_RELEASED    1
-#define AKEY_UP          2
-#define AKEY_DOWN        3
-
-#endif // ENGINEVARIABLES_H_INCLUDED
